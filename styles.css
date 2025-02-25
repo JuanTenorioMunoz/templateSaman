@@ -5,8 +5,16 @@
     font-weight: 400;
     font-style: normal;
     margin: 0;
+}
+
+    body {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        margin-left: 6vw;
+        margin-right: 6vw;
     }
-    
+
     #mainTitle{
         font-family: "Lato", serif;
         font-weight: 700;
@@ -20,6 +28,13 @@
         font-weight:300;
     }
 
+    li {
+        font-size: 19px;
+        font-weight:300;
+        color: #255D99;
+        list-style-position: outside;
+    }
+
     #info {
         display: flex;
         flex-direction: column;
@@ -28,7 +43,7 @@
     #upperInfo {
         display: flex;
         flex-direction: row;
-        column-gap: 2vw;
+        column-gap: 1rem;
         justify-content: center ;
         align-items: center ;
     }
@@ -40,12 +55,9 @@
         justify-content: center;
     }
 
-    body {
-        display: flex;
-        flex-direction: column;
-        row-gap: 2rem;
-        margin-left: 6vw;
-        margin-right: 6vw;
+    #barra {
+        width: 100%;
+        margin-top: 2rem;
     }
 
     #titleAndContainer {
@@ -57,12 +69,14 @@
 
     .subtitle{
         color: #255D99;
+        font-size: 28px;
     }
 
     #evalsInfo{
         display: flex;
         flex-direction: row;
         align-items: center;
+
         column-gap: 1vw;
     }
 
@@ -75,6 +89,12 @@
         flex-direction: row;
         align-items: center;
         gap: 1rem;
+    }
+
+    .weekContainer{
+        display: flex;
+        flex-direction: column;
+        gap:0.3rem;
     }
 
     .number{
@@ -98,4 +118,18 @@
     .blue{
         color: #255D99;
         font-weight: 400;
+    }
+
+    .black{
+        color: black;
+        font-size: 19px;
+        font-weight:300;
+    }
+
+    .percentage{
+        font-weight: 300    ;
+    }
+
+    #deliverables{
+        margin-bottom: 3rem;
     }
