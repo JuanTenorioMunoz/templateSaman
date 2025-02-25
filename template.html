@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
@@ -100,7 +99,142 @@
     </div>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+    body {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+
+    #mainTitle{
+        font-family: "Lato", serif;
+        font-weight: 700;
+        font-style: bold;
+        margin-top: 3vh;
+        color: #255D99;
+    }
     
+    p {
+        font-size: 19px;
+        font-weight:300;
+    }
+
+    li {
+        font-size: 19px;
+        font-weight:300;
+        color: #255D99;
+        list-style-position: outside;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #upperInfo {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        justify-content: center ;
+        align-items: center ;
+    }
+
+    #lowerInfo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #barra {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    #titleAndContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subtitle{
+        color: #255D99;
+        font-size: 28px;
+    }
+
+    #evalsInfo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        column-gap: 1vw;
+    }
+
+    .subheading{
+        color: #F58634  ;
+    }
+
+    .objectiveContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .weekContainer{
+        display: flex;
+        flex-direction: column;
+        gap:0.3rem;
+    }
+
+    .number{
+        font-size: 32px;
+        color: #F58634;
+        font-weight: bold;
+    }
+
+    #courseObjectives{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .mainContainers{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .blue{
+        color: #255D99;
+        font-weight: 400;
+    }
+
+    .black{
+        color: black;
+        font-size: 19px;
+        font-weight:300;
+    }
+
+    .percentage{
+        font-weight: 300    ;
+    }
+
+    #deliverables{
+        margin-bottom: 3rem;
+    }
+
 </style>
 
 </body>
